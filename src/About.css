@@ -1,0 +1,75 @@
+/* Gradient background and content styling */
+.about-container {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb, #a6c1ee);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px;
+  }
+  
+  .about-content {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    max-width: 800px;
+    width: 90%;
+    text-align: left;
+  }
+  
+  /* Text and headings */
+  .text-section h2 {
+    color: #3b3b98;
+    font-size: 2.4em;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .text-section h3 {
+    color: #3b3b98;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  
+  .text-section p {
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+  }
+  
+  /* Feature list with icons */
+  .feature-list {
+    margin-top: 15px;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 1.2em;
+    color:gray
+  }
+  
+  .icon {
+    color: #3b3b98;
+    font-size: 1.6em;
+    margin-right: 10px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .about-content {
+      padding: 20px;
+    }
+    .text-section h2 {
+      font-size: 2em;
+    }
+    .text-section h3 {
+      font-size: 1.5em;
+    }
+  }
+  
