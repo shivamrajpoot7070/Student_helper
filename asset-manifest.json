@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Student_helper/static/css/main.5efbe6e9.css",
+    "main.js": "/Student_helper/static/js/main.ee0aaa55.js",
+    "static/media/home-logo.png": "/Student_helper/static/media/home-logo.3452f3793afaa0470f77.png",
+    "index.html": "/Student_helper/index.html",
+    "main.5efbe6e9.css.map": "/Student_helper/static/css/main.5efbe6e9.css.map",
+    "main.ee0aaa55.js.map": "/Student_helper/static/js/main.ee0aaa55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5efbe6e9.css",
+    "static/js/main.ee0aaa55.js"
+  ]
+}
